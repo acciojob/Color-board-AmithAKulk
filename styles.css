@@ -1,11 +1,12 @@
 /*  your css code here. If applicable */
-.square{
-    width: 100px;
-    height: 100px;
-    background-color: white;
-
-
+.gridtemplate{
+    width: 100vw;
+	height: 80vh;
+	background-color: black;
 }
-.square:hover {
-    background-color: rgb(29,29,29);
-  }
+.templates{
+	background-color: green;
+	border: solid green;
+	grid-template-columns: repeat(40, 20px);
+	grid-template-rows: repeat(20, 20px);
+}
